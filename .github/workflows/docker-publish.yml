@@ -33,6 +33,7 @@ jobs:
 
       - name: Run Lint
         run: npm run lint
+     
 
   build-and-push:
     needs: test-and-lint
