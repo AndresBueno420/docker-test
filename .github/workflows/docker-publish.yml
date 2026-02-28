@@ -35,6 +35,7 @@ jobs:
         run: npm run lint
 
   build-and-push:
+    needs: test-and-lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
