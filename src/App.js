@@ -11,7 +11,6 @@ function App() {
     const characterApi = await api.json();
     setCharacters(characterApi.results);
   }
-  Error de sintaxis en el codigo 
   
   return (
     <div className="App">
